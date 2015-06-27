@@ -16,7 +16,6 @@ your imagination is the limit, Have fun!
 <h2>Examples</h2>
 <h3>Hello World! Example</h3>
 <pre>
-```dart
 void main () {
   // Creates the example
   OZClass example = new OZClass();
@@ -33,12 +32,10 @@ void main () {
   // Calling the method
   example.callMethod( 'sayHelloWorld' );  // 'Hello World!'
 }
-```
 </pre>
 <h3>Custom Class Builder</h3>
 <h4>The Function</h4>
 <pre>
-```dart
 OZClass personBuilder ( String name, int age ) {
   OZClass tmp = new OZClass();
   
@@ -54,11 +51,9 @@ OZClass personBuilder ( String name, int age ) {
   
   return tmp;
 }
-```
 </pre>
 <h4>Main</h4>
 <pre>
-```dart
 void main () {
   List<OZClass> persons = [
     personBuilder( 'Jimmy', 30 ),
@@ -82,12 +77,10 @@ void main () {
    * I'm 45 years old
    */
 }
-```
 </pre>
 <h3>Inheritance</h3>
 <h4>Class</h4>
 <pre>
-```dart
 class Person extends OZClass {
   /**
    * Creates a person with a name and an age.
@@ -129,11 +122,9 @@ class Person extends OZClass {
     return property( 'name' );
   }
 }
-```
 </pre>
 <h4>Main</h4>
 <pre>
-```dart
 void main () {
   Person me = new Person( 'Adri', 200 );
   
@@ -150,5 +141,4 @@ void main () {
   });
   me.callMethod( 'swim' ); // Yeah, now I can swim
 }
-```
 </pre>
