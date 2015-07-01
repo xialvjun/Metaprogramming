@@ -16,14 +16,14 @@ class OZClass {
   /**
    * Map with the methods of the class.
    */
-  Map<String, dynamic> methods; 
+  Map<String, method> methods; 
   
   /**
    * Creates the empty class without methods and properties.
    */
   OZClass() {
     properties = new Map<String, dynamic>();
-    methods = new Map<String, dynamic>();
+    methods = new Map<String, method>();
   }
   
   /**
